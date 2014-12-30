@@ -11,7 +11,7 @@ module.exports = {
     },
     indexHtmlPath: function() {
         return path.join(process.cwd(), 'dist', 'index.html');
-    }
+    },
     indexJspPath: function() {
         return path.join(process.cwd(), 'dist', 'index.jsp');
     }
