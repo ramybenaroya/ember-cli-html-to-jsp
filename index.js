@@ -4,9 +4,9 @@ var path = require('path');
 module.exports = {
     name: 'ember-cli-html-to-jsp',
     postBuild: function(result) {
-        if (fs.existsSync(lockfile = this.indexHtmlPath())) {
-            fs.createReadStream().pipe(fs.createWriteStream(this.indexJspPath));
-            console.log('copied index.html to index.jsp');
+        var index;
+        if (fs.existsSync(index = this.indexHtmlPath())) {
+            fs.writeFileSync(this.indexJspPath(), fs.readFileSync(index));
         }
     },
     indexHtmlPath: function() {
