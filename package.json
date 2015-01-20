@@ -1,8 +1,10 @@
 {
   "name": "ember-cli-html-to-jsp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Copy compiled index.html to index.jsp",
   "main": "index.js",
+  "repository": "https://github.com/ramybenaroya/ember-cli-html-to-jsp",
+  "homepage": "https://github.com/ramybenaroya/ember-cli-html-to-jsp",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
