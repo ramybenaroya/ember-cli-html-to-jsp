@@ -8,6 +8,18 @@ Copy compiled index.html to index.jsp
 
 After build `dist/index.html` will be copied to `dist/index.jsp`
 
+## Configuration
+```
+var app = new EmberApp({
+	htmlToJsp: {
+		/*
+		Default options are:
+			enabled: true,
+			outputFilename: 'index.jsp'
+		*/
+	}	
+})
+```
 
 ## Installation
 

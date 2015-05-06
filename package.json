@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-html-to-jsp",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Copy compiled index.html to index.jsp",
   "main": "index.js",
   "repository": "https://github.com/ramybenaroya/ember-cli-html-to-jsp",
@@ -12,5 +12,10 @@
     "ember-addon"
   ],
   "author": "Ramy Ben Aroya",
+  "dependencies": {
+    "broccoli-rename-files": "0.0.3",
+    "object-assign": "^2.0.0",
+    "broccoli-merge-trees": "^0.2.1"
+  },
   "license": "MIT"
 }
