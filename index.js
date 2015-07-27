@@ -11,6 +11,7 @@ module.exports = {
     },
 
     included: function(app) {
+        console.log('This addon is deprecated.\nPlease use ember-index addon instead.\nhttps://github.com/ramybenaroya/ember-index')
         this._super.included.apply(this, arguments);
         this.options = assign({}, this.defaultOptions, (app.options.htmlToJsp || {}));
     },

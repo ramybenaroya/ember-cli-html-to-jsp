@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-html-to-jsp",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Copy compiled index.html to index.jsp",
   "main": "index.js",
   "repository": "https://github.com/ramybenaroya/ember-cli-html-to-jsp",

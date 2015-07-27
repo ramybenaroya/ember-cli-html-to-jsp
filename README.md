@@ -1,6 +1,10 @@
-# EmberCLI HTML to JSP
+# EmberCLI HTML to JSP (Deprecated)
 
 Copy compiled index.html to index.jsp
+
+## Deprecated
+**This addon is deprecated and no longer being maintained.**  
+You can use [ember-index](https://github.com/ramybenaroya/ember-index) addon to achieve the same.
 
 ## Usage
 
